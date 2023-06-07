@@ -11,6 +11,11 @@ This repository is created to be a guideline for migrating ML models that have b
 3. After finished step 2 you would get 'model.joblib'. Btw, other format is valid e.g. pkl, pickle or any byte stream.
 3.1 (Optional) Maybe you could try with other format as you see fit. If it doesn't work, just let me know.
 4. Deploy/Serve Iris classification service using AWS sagemaker (migration-playground.ipynb). You can follow through my header to understrand what this block is trying to do. If you face any problem, feel free to contact me.
+# Inference.py
+- This one is the most important component that we have to learn about it. Here, we can write a specific functions including model_fn, input_fn, predict_fn and output_fn to override the pre/post processing behaviour.
+
+For more details, please refer to : https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_inferenece_script_mode.html
+
 # Remark
 - Currently, We support only Realtime and Serverless endpoint mode
 - If you have any suggestion, feel free to raise it.
