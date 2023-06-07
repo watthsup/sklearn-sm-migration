@@ -14,7 +14,7 @@ This repository is created to be a guideline for migrating ML models that have b
 
 (Optional) Maybe you could try with other weight format as you see fit. If it doesn't work, just let me know.
 # Inference.py
-- This one is the most important component that we have to learn about it. Here, we can write a specific functions including model_fn, input_fn, predict_fn and output_fn to override the pre/post processing behaviour.
+- This one is the most important component that we have to learn about it. Here, we can write specific functions including model_fn, input_fn, predict_fn and output_fn to override the pre/post processing behaviour.
 
 For more details, please refer to : https://sagemaker-examples.readthedocs.io/en/latest/introduction_to_amazon_algorithms/xgboost_abalone/xgboost_inferenece_script_mode.html
 
