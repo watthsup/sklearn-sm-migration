@@ -10,7 +10,7 @@ This repository is created to be a guideline for migrating ML models that have b
 3. After finished step 2 you would get **model.joblib**. Btw, other format is valid e.g. pkl, pickle or any byte stream.
 4. Deploy/Serve Iris classification service using AWS sagemaker **(migration-playground.ipynb)**. You can follow through my header to understrand what this block is trying to do. If you face any problem, feel free to contact me.
 
-(Optional) To correctly validate the result from an endpoint. I suggest that you should explicitly split the Iris.csv into train.csv and test.csv first na.
+(Optional) To correctly validate the result from an endpoint. I suggest that you should explicitly split the Iris.csv into train.csv and test.csv.
 
 (Optional) Maybe you could try with other weight format as you see fit. If it doesn't work, just let me know.
 # Inference.py
